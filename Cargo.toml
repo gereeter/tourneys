@@ -1,0 +1,12 @@
+[package]
+name = "tourneys"
+version = "0.1.0"
+authors = ["Jonathan S <gereeter+code@gmail.com>"]
+
+[dependencies]
+rand = "0.6.0"
+clap = "2.32.0"
+text_io = "0.1.7"
+
+[profile.dev]
+opt-level = 3
